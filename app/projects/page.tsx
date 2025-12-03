@@ -20,16 +20,29 @@ export default function ProjectsPage() {
 
         {/* Project Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
+            <div className="p-6 rounded-xl bg-white/5 backdrop-blur-md border border-white/10 hover:bg-white/10 transition group cursor-pointer">
+                <a href="/projects/volt-vault">
+                    <h2 className="text-2xl font-semibold mb-3 group-hover:text-cyan-300 transition">
+                    VoltVault
+                    </h2>
+                    <p className="text-gray-400">
+                    A DIY solar-charged power station built inside a toolbox using recycled laptop batteries.
+                    </p>
+                </a>
+            </div>
 
-          {/* Placeholder Project Card */}
-          <div className="p-6 rounded-xl bg-white/5 backdrop-blur-md border border-white/10 hover:bg-white/10 transition group cursor-pointer">
-            <h2 className="text-2xl font-semibold mb-3 group-hover:text-cyan-300 transition">
-              Coming Soon
-            </h2>
-            <p className="text-gray-400">
-              Your future projects will appear here once you add them.
-            </p>
-          </div>
+            <div className="p-6 rounded-xl bg-white/5 backdrop-blur-md border border-white/10 hover:bg-white/10 transition group cursor-pointer">
+                <a href="/projects/ignis-link">
+                    <h2 className="text-2xl font-semibold mb-3 group-hover:text-orange-300 transition">
+                    IgnisLink
+                    </h2>
+                    <p className="text-gray-400">
+                    A smartphone-controlled firework ignition system designed for safer and more precise launches.
+                    </p>
+                </a>
+            </div>
+
+
 
         </div>
       </section>
