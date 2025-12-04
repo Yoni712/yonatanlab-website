@@ -21,12 +21,14 @@ export default function AboutPage() {
         <p className="text-lg text-gray-300 leading-relaxed mb-6">
           Hi! My name is <span className="font-semibold text-cyan-300">Yonatan Michael Beyene</span>.
           I'm a developer and creator who loves building things — from AI tools and web applications
-          to hardware, electronics, and Raspberry Pi projects. I enjoy turning ideas into real, working systems.
+          to hardware, electronics, and Raspberry Pi projects. I enjoy turning ideas into real, working systems. 
+          I also probably own the smartest hamster in the world. He always finds a new way to escape, and it never fails to impress me.
+          And if you’re wondering, his name is Carl Gustav XXVII. 
         </p>
 
         <p className="text-lg text-gray-300 leading-relaxed mb-10">
           Yonatan Lab is my personal space where I experiment, learn, document, and share the projects I build.
-          Whether it’s a power station made from recycled laptop batteries or a remote-controlled ignition system,
+          Whether it’s a power station made from recycled laptop batteries or a remote controlled ignition system,
           I love solving problems and exploring new technologies.
         </p>
 
@@ -75,8 +77,7 @@ export default function AboutPage() {
 
         <ul className="space-y-3 text-gray-300 leading-relaxed mb-10">
           <li>⚡ Build hardware projects (power systems, electronics, Pi builds)</li>
-          <li>🤖 Experiment with AI tools & automation</li>
-          <li>💻 Develop web applications & micro-startup prototypes</li>
+          <li>🤖 Experiment with AI tools</li>
           <li>🔬 Reverse-engineer problems and create practical solutions</li>
           <li>📦 Document and share my builds on my website</li>
         </ul>
