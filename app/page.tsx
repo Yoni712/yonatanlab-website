@@ -62,7 +62,6 @@ export default function Home() {
         <div className="flex justify-center gap-8 text-gray-400 text-sm">
           <div className="hover:text-cyan-300 transition">⚡ Hardware Builds</div>
           <div className="hover:text-cyan-300 transition">🤖 AI Experiments</div>
-          <div className="hover:text-cyan-300 transition">💻 Web Projects</div>
           <div className="hover:text-cyan-300 transition">🔬 Tech Research</div>
         </div>
       </section>
