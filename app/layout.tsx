@@ -18,6 +18,26 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="h-full bg-[#0A0A0F]">
+
+      <head>
+        {/* --- Google Analytics --- */}
+        <script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-BEEXS8QGPB"
+        ></script>
+
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-BEEXS8QGPB');
+            `,
+          }}
+        />
+      </head>
+
       <body className="h-full bg-[#0A0A0F] text-gray-200 m-0 p-0">
         {/* NAVBAR */}
         <nav className="fixed top-0 left-0 w-full backdrop-blur-xl bg-[#0A0A0F]/40 border-b border-cyan-400/10 z-50 shadow-lg shadow-cyan-500/5">
