@@ -24,13 +24,6 @@ export default function RootLayout({
           <div className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
             {/* Logo */}
             <a href="/" className="flex items-center gap-3 hover:opacity-80 transition">
-              <Image
-                src="/favicon.png"
-                alt="Yonatan Lab Logo"
-                width={70}
-                height={70}
-                className="rounded"
-              />
               <span className="text-xl font-bold bg-gradient-to-r from-cyan-400 to-purple-500 bg-clip-text text-transparent">
                 Yonatan Lab
               </span>
