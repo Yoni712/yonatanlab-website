@@ -20,6 +20,8 @@ export default function ProjectsPage() {
 
         {/* Project Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
+
+            {/* VoltVault */}
             <div className="p-6 rounded-xl bg-white/5 backdrop-blur-md border border-white/10 hover:bg-white/10 transition group cursor-pointer">
                 <a href="/projects/volt-vault">
                     <h2 className="text-2xl font-semibold mb-3 group-hover:text-cyan-300 transition">
@@ -31,6 +33,7 @@ export default function ProjectsPage() {
                 </a>
             </div>
 
+            {/* IgnisLink */}
             <div className="p-6 rounded-xl bg-white/5 backdrop-blur-md border border-white/10 hover:bg-white/10 transition group cursor-pointer">
                 <a href="/projects/ignis-link">
                     <h2 className="text-2xl font-semibold mb-3 group-hover:text-orange-300 transition">
@@ -41,8 +44,30 @@ export default function ProjectsPage() {
                     </p>
                 </a>
             </div>
+            
+            {/* Automatic Watering System */}
+            <div className="p-6 rounded-xl bg-white/5 backdrop-blur-md border border-white/10 hover:bg-white/10 transition group cursor-pointer">
+                <a href="/projects/automatic-watering-system">
+                    <h2 className="text-2xl font-semibold mb-3 group-hover:text-green-300 transition">
+                    Automatic Watering System
+                    </h2>
+                    <p className="text-gray-400">
+                    A simple Arduino-powered system that waters plants automatically when the soil becomes dry.
+                    </p>
+                </a>
+            </div>
 
-
+            {/* Remote Door Opener */}
+            <div className="p-6 rounded-xl bg-white/5 backdrop-blur-md border border-white/10 hover:bg-white/10 transition group cursor-pointer">
+                <a href="/projects/remote-door-opener">
+                    <h2 className="text-2xl font-semibold mb-3 group-hover:text-blue-300 transition">
+                    Remote Door Opener
+                    </h2>
+                    <p className="text-gray-400">
+                    A simple ESP32-powered system that opens the door.
+                    </p>
+                </a>
+            </div>
 
         </div>
       </section>

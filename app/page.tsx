@@ -106,6 +106,18 @@ export default function Home() {
 
         </div>
       </section>
+      {/* Footer */}
+      <footer className="relative w-full py-10 mt-24 text-center">
+        <div className="w-full h-[1px] bg-gradient-to-r from-transparent via-cyan-400/40 to-transparent mb-6"></div>
+        <p className="text-gray-300 text-sm tracking-wide drop-shadow-lg">
+          Built with the help of AI tools.
+        </p>
+
+        {/* Glow behind text */}
+        <div className="absolute left-1/2 -translate-x-1/2 top-1/2 -translate-y-1/2 w-40 h-40 bg-cyan-500/10 blur-3xl rounded-full"></div>
+      </footer>
+
+
     </main>
   );
 }
