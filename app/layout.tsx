@@ -1,8 +1,14 @@
 import "./globals.css";
+import Image from "next/image";
 
 export const metadata = {
   title: "Yonatan Lab",
   description: "Projects and experiments by Yonatan Michael Beyene",
+  icons: {
+    icon: "/favicon.png",
+    shortcut: "/favicon.png",
+    apple: "/favicon.png",
+  },
 };
 
 export default function RootLayout({
@@ -16,9 +22,18 @@ export default function RootLayout({
         {/* NAVBAR */}
         <nav className="fixed top-0 left-0 w-full backdrop-blur-xl bg-[#0A0A0F]/40 border-b border-cyan-400/10 z-50 shadow-lg shadow-cyan-500/5">
           <div className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
-            {/* Logo / Title */}
-            <a href="/" className="text-xl font-bold bg-gradient-to-r from-cyan-400 to-purple-500 bg-clip-text text-transparent hover:opacity-80 transition">
-              Yonatan Lab
+            {/* Logo */}
+            <a href="/" className="flex items-center gap-3 hover:opacity-80 transition">
+              <Image
+                src="/favicon.png"
+                alt="Yonatan Lab Logo"
+                width={70}
+                height={70}
+                className="rounded"
+              />
+              <span className="text-xl font-bold bg-gradient-to-r from-cyan-400 to-purple-500 bg-clip-text text-transparent">
+                Yonatan Lab
+              </span>
             </a>
 
             {/* Nav Links */}
