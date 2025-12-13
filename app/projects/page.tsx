@@ -69,6 +69,18 @@ export default function ProjectsPage() {
                 </a>
             </div>
 
+            {/* Drone swarm */}
+            <div className="p-6 rounded-xl bg-white/5 backdrop-blur-md border border-white/10 hover:bg-white/10 transition group cursor-pointer">
+                <a href="/projects/drone-swarm-rescue">
+                    <h2 className="text-2xl font-semibold mb-3 group-hover:text-purple-300 transition">
+                    Intelligent Replanning Drone Swarm
+                    </h2>
+                    <p className="text-gray-400">
+                    Simulated the communication protocol for the swarm drones in PyBullet. 
+                    </p>
+                </a>
+            </div>
+
         </div>
       </section>
     </main>
