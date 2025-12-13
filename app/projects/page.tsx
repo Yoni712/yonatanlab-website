@@ -60,7 +60,7 @@ export default function ProjectsPage() {
             {/* Remote Door Opener */}
             <div className="p-6 rounded-xl bg-white/5 backdrop-blur-md border border-white/10 hover:bg-white/10 transition group cursor-pointer">
                 <a href="/projects/remote-door-opener">
-                    <h2 className="text-2xl font-semibold mb-3 group-hover:text-blue-300 transition">
+                    <h2 className="text-2xl font-semibold mb-3 group-hover:text-red-300 transition">
                     Remote Door Opener
                     </h2>
                     <p className="text-gray-400">

@@ -13,7 +13,7 @@ export default function RemoteDoorOpenerPage() {
       <section className="relative max-w-4xl mx-auto">
 
         {/* Title */}
-        <h1 className="text-5xl font-extrabold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-blue-500">
+        <h1 className="text-5xl font-extrabold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-red-400 to-red-500">
           Remote Door Opener
         </h1>
 
@@ -23,7 +23,7 @@ export default function RemoteDoorOpenerPage() {
         </p>
 
         {/* Overview */}
-        <h2 className="text-3xl font-bold mt-12 mb-4 text-blue-300">Overview</h2>
+        <h2 className="text-3xl font-bold mt-12 mb-4 text-red-300">Overview</h2>
         <p className="text-gray-300 leading-relaxed">
           This project solves a common issue: opening the main building door remotely when delivery drivers arrive
           while you're not home. Using an ESP32 microcontroller, WiFi connectivity, and a servo motor, the system
@@ -31,7 +31,7 @@ export default function RemoteDoorOpenerPage() {
         </p>
 
         {/* Story */}
-        <h2 className="text-3xl font-bold mt-12 mb-4 text-blue-300">Story & Background</h2>
+        <h2 className="text-3xl font-bold mt-12 mb-4 text-red-300">Story & Background</h2>
         <p className="text-gray-300 leading-relaxed mb-6">
           The idea came from a recurring problem: when delivery drivers arrived at the building entrance, there was
           no way to open the door remotely unless I was at home. After missing multiple deliveries and having them
@@ -45,7 +45,7 @@ export default function RemoteDoorOpenerPage() {
         </p>
 
         {/* Technical Build */}
-        <h2 className="text-3xl font-bold mt-12 mb-4 text-blue-300">Technical Build</h2>
+        <h2 className="text-3xl font-bold mt-12 mb-4 text-red-300">Technical Build</h2>
         <p className="text-gray-300 leading-relaxed mb-4">
           The project uses an ESP32 microcontroller for WiFi control, paired with a standard servo motor mounted
           on a small 3D‑printed bracket. When the user presses a button in the Blynk app, the command is securely
@@ -60,7 +60,7 @@ export default function RemoteDoorOpenerPage() {
         </ul>
 
         {/* How It Works */}
-        <h2 className="text-3xl font-bold mt-12 mb-4 text-blue-300">How It Works</h2>
+        <h2 className="text-3xl font-bold mt-12 mb-4 text-red-300">How It Works</h2>
         <p className="text-gray-300 leading-relaxed mb-6">
           The ESP32 stays connected to WiFi and listens for commands from the Blynk cloud. When a command is sent
           through the phone app, the servo rotates for a short moment, pressing the door‑open button. Once activated,
@@ -68,8 +68,8 @@ export default function RemoteDoorOpenerPage() {
         </p>
 
         {/* Photo */}
-        <h2 className="text-3xl font-bold mt-12 mb-4 text-blue-300">Photo</h2>
-        <div className="relative w-full h-[500px] md:h-[650px] rounded-xl overflow-hidden border border-white/10 hover:border-blue-400/40 hover:shadow-blue-400/20 transition">
+        <h2 className="text-3xl font-bold mt-12 mb-4 text-red-300">Photo</h2>
+        <div className="relative w-full h-[500px] md:h-[650px] rounded-xl overflow-hidden border border-white/10 hover:border-red-400/40 hover:shadow-red-400/20 transition">
           <Image
             src="/door/IMG1.jpg"
             alt="Remote Door Opener Image"
@@ -79,7 +79,7 @@ export default function RemoteDoorOpenerPage() {
         </div>
 
         {/* Learnings */}
-        <h2 className="text-3xl font-bold mt-12 mb-4 text-blue-300">What I Learned</h2>
+        <h2 className="text-3xl font-bold mt-12 mb-4 text-red-300">What I Learned</h2>
         <p className="text-gray-300 leading-relaxed">
           This project taught me about secure remote control, IoT platforms, servo actuation, and practical
           problem‑solving through engineering. It also strengthened my understanding of ESP32 networking and

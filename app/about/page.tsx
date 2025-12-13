@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { Github, Linkedin, Mail } from "lucide-react";
 
 export default function AboutPage() {
@@ -31,6 +32,17 @@ export default function AboutPage() {
           Whether it’s a power station made from recycled laptop batteries or a remote controlled ignition system,
           I love solving problems and exploring new technologies.
         </p>
+
+        
+          <Image
+            src="/aboutme/IMG_2522.jpg"
+            alt="Intelligent Replanning Drone Swarm simulation codebase structure"
+            width={200}
+            height={200}
+            /*className="w-full h-auto"*/
+            priority
+          />
+        
 
         {/* Divider */}
         <div className="w-full h-[1px] bg-gradient-to-r from-transparent via-cyan-500/30 to-transparent my-10"></div>
@@ -78,7 +90,6 @@ export default function AboutPage() {
         <ul className="space-y-3 text-gray-300 leading-relaxed mb-10">
           <li>⚡ Build hardware projects (power systems, electronics, Pi builds)</li>
           <li>🤖 Experiment with AI tools</li>
-          <li>🔬 Reverse-engineer problems and create practical solutions</li>
           <li>📦 Document and share my builds on my website</li>
         </ul>
 
