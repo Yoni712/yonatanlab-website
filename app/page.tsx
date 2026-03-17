@@ -18,12 +18,12 @@ export default function Home() {
       {/* Hero Section */}
       <section className="relative max-w-4xl mx-auto px-6 py-32 text-center animate-fadeIn">
         <h1 className="text-6xl font-extrabold tracking-tight bg-clip-text text-transparent bg-gradient-to-r from-cyan-400 to-purple-500 drop-shadow-md">
-          Yonatan Lab
+          YonatanLab
         </h1>
 
         <p className="mt-6 text-lg text-gray-300 leading-relaxed">
           A futuristic lab of projects, experiments, and ideas built by 
-          <span className="font-semibold text-cyan-300"> Yonatan Michael Beyene</span>.
+          <span className="font-semibold text-cyan-300"> Yonatan Michael</span>.
         </p>
 
         <div className="mt-10 flex justify-center gap-4">
