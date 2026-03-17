@@ -2,7 +2,7 @@ import "./globals.css";
 import Image from "next/image";
 
 export const metadata = {
-  title: "Yonatan Lab",
+  title: "YonatanLab",
   description: "Projects and experiments by Yonatan Michael Beyene",
   icons: {
     icon: "/favicon.png",
@@ -45,7 +45,7 @@ export default function RootLayout({
             {/* Logo */}
             <a href="/" className="flex items-center gap-3 hover:opacity-80 transition">
               <span className="text-xl font-bold bg-gradient-to-r from-cyan-400 to-purple-500 bg-clip-text text-transparent">
-                Yonatan Lab
+                YonatanLab
               </span>
             </a>
 
