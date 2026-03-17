@@ -20,11 +20,11 @@ export default function AboutPage() {
 
         {/* Intro */}
         <p className="text-lg text-gray-300 leading-relaxed mb-6">
-          Hi! My name is <span className="font-semibold text-cyan-300">Yonatan Michael Beyene</span>.
-          I'm a developer and creator who loves building things — from AI tools and web applications
-          to hardware, electronics, and Raspberry Pi projects. I enjoy turning ideas into real, working systems. 
+          Hi! My name is <span className="font-semibold text-cyan-300">Yonatan Michael</span>.
+          I'm a developer and creator who loves building things, from AI tools and web applications
+          to hardware, electronics, robotics, and Raspberry Pi projects. I enjoy bringing ideas into reality. 
           I also probably own the smartest hamster in the world. He always finds a new way to escape, and it never fails to impress me.
-          And if you’re wondering, his name is Carl XXVII Gustaf. He gave me that royalty energy when I first got him, which was the 27th of May, hence also why XXVII. 
+          And if you’re wondering, his name is Carl XXVII Gustaf. He gave me that royalty energy when I first got him, which was the 27th of May, hence also why XXVII(27). 
         </p>
 
         <p className="text-lg text-gray-300 leading-relaxed mb-10">
