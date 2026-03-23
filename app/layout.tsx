@@ -6,8 +6,8 @@ export const metadata = {
   description: "Projects and experiments by Yonatan Michael Beyene",
   icons: {
     icon: "/favicon.png",
-    shortcut: "/favicon.png",
-    apple: "/favicon.png",
+    shortcut: "/logo.png",
+    apple: "/logo.png",
   },
 };
 
