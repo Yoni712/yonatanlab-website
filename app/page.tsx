@@ -22,8 +22,7 @@ export default function Home() {
         </h1>
 
         <p className="mt-6 text-lg text-gray-300 leading-relaxed">
-          A futuristic lab of projects, experiments, and ideas built by 
-          <span className="font-semibold text-cyan-300"> Yonatan Michael</span>.
+          A futuristic lab of projects, experiments, and ideas built by me <span className="font-semibold text-cyan-300"> Yonatan Michael</span>.
         </p>
 
         <div className="mt-10 flex justify-center gap-4">
